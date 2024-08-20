@@ -1,4 +1,5 @@
 export default function NewsItem({ news }) {
+  console.log(news)
   return (
     <>
       <div
@@ -6,7 +7,7 @@ export default function NewsItem({ news }) {
         style={{ maxWidth: "345px" }}
       >
         <img
-          src={news.urlToImage}
+          src={news.url}
           className="card-img-top"
           alt="..."
           style={{ height: "200px", width: "325px" }}
