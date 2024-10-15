@@ -18,7 +18,7 @@ export default function NewsBoard({ category }) {
   return (
     <div>
       <h2 className="text-center text-dark font-weight-bold">
-        Latest News<span className="badge bg-danger ms-4"> {category.toUpperCase()}</span>
+        Latest News<span className="badge bg-danger ms-5"> {category.toUpperCase()}</span>
 
       </h2>
       {articles.map((news, index) => {
