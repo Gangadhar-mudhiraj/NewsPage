@@ -6,8 +6,6 @@
 .pnp
 .pnp.js
 
-.gitignore
-
 # Logs
 *.log
 npm-debug.log*
